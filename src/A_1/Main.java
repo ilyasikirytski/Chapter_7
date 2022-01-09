@@ -9,7 +9,8 @@ public class Main {
         String text = "Hello world. My name is ilya. And i learn how to be a good dev.";
         replaceChar(text, "o", "&@$");
     }
-    public static void replaceChar (String text, String targetChar, String replaceTo){
+
+    public static void replaceChar(String text, String targetChar, String replaceTo) {
         System.out.println(text.replace(targetChar, replaceTo));
     }
 }
