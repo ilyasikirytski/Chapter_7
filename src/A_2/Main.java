@@ -12,13 +12,9 @@ public class Main {
     }
 
     public static void replaceCharOnAlphabetIndex(String text, String indexOfChar) {
-        int res = 0;
+        int res;
         String s = "abcdefghijklmnopqrstuvwxyz";
-        // TODO а цикл зачем? типо один раз сделать  res = s.indexOf(indexOfChar); недостаточно?))
-        //  надо чтобы наверняка 26 раз?)
-        for (int i = 0; i < s.length(); i++) {
-            res = s.indexOf(indexOfChar);
-        }
+        res = s.indexOf(indexOfChar);
         System.out.println(text.replace(indexOfChar, Integer.toString(res + 1)));
     }
 }

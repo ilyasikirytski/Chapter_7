@@ -7,7 +7,6 @@ package A_3;
 public class Main {
     public static void main(String[] args) {
         String wrongText = "Do you think it is a good pasition? i founded a better pasition";
-
         correctText(wrongText);
     }
 
@@ -15,6 +14,5 @@ public class Main {
         if (wrongText.contains("pa")) {
             System.out.println(wrongText.replace("pa", "po"));
         }
-
     }
 }
